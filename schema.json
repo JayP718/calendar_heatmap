@@ -1,0 +1,47 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "calendar_heatmap",
+    "friendlyName": "calendar_heatmap",
+    "description": "A calendar heatmap allowing you to show trends and hot spots through a calendar.",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "text",
+        "key": "name",
+        "label": "Name"
+      },
+      {
+        "type": "dataProvider",
+        "label": "Data provider",
+        "key": "dataProvider",
+        "required": true
+      },
+      {
+        "type": "text",
+        "label": "Date Field",
+        "key": "dateField",
+        "required": true
+      },
+      {
+        "type": "text",
+        "label": "Value Field",
+        "key": "valueField",
+        "required": true
+      },
+      {
+        "type": "boolean",
+        "label": "Ignore Time Zone",
+        "key": "ignoreTimeZone",
+        "defaultValue": true
+      }
+      ,
+      {
+        "type": "event",
+        "label": "On Click",
+        "key": "onclick"
+      }
+    ]
+  }
+}
