@@ -28,3 +28,5 @@ jobs:
           generate_release_notes: true
           files: |
             dist/*.tar.gz
+permissions:
+  contents: write
